@@ -1,0 +1,10 @@
+@h1_color : #fff;
+body{
+	background-color: #000;
+	h1{
+		color: @h1_color;
+		&:hover{
+			color: darken(@h1_color, 10%)
+		}
+	}
+}
